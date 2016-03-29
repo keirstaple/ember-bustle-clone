@@ -2,6 +2,6 @@
 
 <ul>
   {{#each model as |article|}}
-    {{admin-article-tile article=article}}
+    {{admin-article-tile article=article destroyArticle="destroyArticle"}}
   {{/each}}
 </ul>
